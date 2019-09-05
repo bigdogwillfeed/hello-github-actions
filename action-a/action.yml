@@ -3,4 +3,4 @@ author: 'me, duh'
 description: 'does things'
 runs:
   using: 'node12'
-  main: 'entrypoint.ps1'
+  main: 'entrypoint.js'
