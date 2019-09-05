@@ -2,5 +2,5 @@ name: 'action-a'
 author: 'me, duh'
 description: 'does things'
 runs:
-  using: 'powershell'
+  using: 'node12'
   main: 'entrypoint.ps1'
