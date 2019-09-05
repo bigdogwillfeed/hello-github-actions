@@ -1,0 +1,6 @@
+name: 'action-a'
+author: 'me, duh'
+description: 'does things'
+runs:
+  using: 'powershell'
+  main: 'entrypoint.ps1'
