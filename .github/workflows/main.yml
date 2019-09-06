@@ -7,6 +7,8 @@ jobs:
     runs-on: windows-latest    
     steps:
     - uses: actions/checkout@master
-    - uses: ./action-a
+    - name: my inline powershell action
+      run: echo "Hello world my name is $env:MY_NAME"
+      shell: powershell
       env:
         MY_NAME: "Mona"
