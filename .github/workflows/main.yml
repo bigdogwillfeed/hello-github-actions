@@ -15,5 +15,5 @@ jobs:
       env:
         MY_NAME: "Mona"
     - name: whats the path?
-      run: echo "$env:path"; msbuild -version; nuget -version
+      run: echo "$env:path"; msbuild -version; npm -version; npx -version
       shell: powershell
