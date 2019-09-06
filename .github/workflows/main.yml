@@ -12,3 +12,6 @@ jobs:
       shell: powershell
       env:
         MY_NAME: "Mona"
+    - name: whats the path?
+      run: echo "$env:path"
+      shell: powershell
