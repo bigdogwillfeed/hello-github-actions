@@ -17,3 +17,10 @@ jobs:
     - name: whats the path?
       run: echo "$env:path"; msbuild -version; npm -version; npx -version
       shell: powershell
+  thing:
+    needs: build
+    runs-on: windows-latest
+    steps:
+    - name: test thing
+      run: dir
+      shell: powershell
